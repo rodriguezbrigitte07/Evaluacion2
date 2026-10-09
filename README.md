@@ -8,3 +8,6 @@
 
 ---
 ### Pregunta 1
+D. 11000 milisegundos 
+(Linea en blanco)
+Justificación
