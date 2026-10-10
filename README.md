@@ -1,4 +1,4 @@
-## Respuestas Evaluación 2 Introducción a Tecnologías de la Información 
+# Respuestas Evaluación 2 Introducción a Tecnologías de la Información 
 
 ## Integrantes 
 1. Paula Sánchez
@@ -41,7 +41,7 @@ Como los canales 1 y 2 son los únicos que arman el patrón de encendido usando 
   ## Pregunta 7
  B. 800 milisegundos.
 ### Justificación:
-El recorrido tiene 6 LED de ida y 6 de regreso, pero los LED de los extremos no se repiten. Por eso, se realizan 10 pasos en total. Como cada paso dura 80 milisegundos, el ciclo completo dura 800 milisegundos.
+El recorrido tiene 6 pasos de ida y 6 de regreso, pero los LED de los extremos se encienden una sola vez. Por eso, se realizan 10 pasos en total. Como cada paso dura 80 milisegundos, el ciclo completo dura 10 × 80 = 800 milisegundos.
 
   ## Pregunta 8
 A. Agregar el usuario al grupo dialout y reiniciar su sesión en Debian 13.
@@ -71,7 +71,7 @@ Durante la descarga, la tensión del capacitor disminuye exponencialmente hasta 
   ## Pregunta 13
  B. 4,3 miliamperios.
 ### Justificación:
-  La resistencia de base recibe una tensión aproximada de 4,3 V, porque se restan los 0,7 V de la unión base-emisor a los 5 V de alimentación. Aplicando la ley de Ohm, la corriente es 4,3 V ÷ 1000 Ω = 4,3 mA.
+  La tensión en la resistencia de base es aproximadamente 4,3 V, porque a los 5 V de alimentación se les resta la caída de 0,7 V de la unión base-emisor. Aplicando la ley de Ohm, la corriente es I = 4,3 V / 1000 Ω = 0,0043 A, es decir, 4,3 mA.
 
   ## Pregunta 14
 B. Ambas proposiciones son verdaderas y la razón sustenta de forma directa la afirmación
@@ -86,7 +86,7 @@ C. Pin digital 9.
   ## Pregunta 16
  D. Porque la demanda de la bobina excede la capacidad de corriente que soporta el pin
 ### Justificación:
- Al realizar 13 pulsaciones, el contador llega al número 13, que en binario es 1101. Por eso, los LEDs de los bits 0, 2 y 3 quedan encendidos, mientras que el bit 1 permanece apagado.
+ La bobina del relé necesita 72 miliamperios, pero el pin de Arduino soporta como máximo 40 miliamperios, según el enunciado. Por eso, se utiliza un transistor que permite controlar el relé sin exigirle tanta corriente directamente al pin.
 
   ## Pregunta 17
  B. Solo la declaración 2 es verdadera.
