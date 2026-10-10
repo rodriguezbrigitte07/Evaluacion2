@@ -1,4 +1,4 @@
-# Respuestas Evaluación 2 Introducción a Tecnologías de la Información 
+*Respuestas Evaluación 2 Introducción a Tecnologías de la Información* 
 
 ## Integrantes 
 1. Paula Sánchez
@@ -41,7 +41,7 @@ Como los canales 1 y 2 son los únicos que arman el patrón de encendido usando 
   ## Pregunta 7
  B. 800 milisegundos.
 ### Justificación:
-El efecto enciende los seis LED de izquierda a derecha y luego regresa, sin repetir los LED de los extremos. En total, se realizan 11 pasos de 80 milisegundos cada uno, por lo que el ciclo completo dura 880 milisegundos.
+El recorrido tiene 6 LED de ida y 6 de regreso, pero los LED de los extremos no se repiten. Por eso, se realizan 10 pasos en total. Como cada paso dura 80 milisegundos, el ciclo completo dura 800 milisegundos.
 
   ## Pregunta 8
 A. Agregar el usuario al grupo dialout y reiniciar su sesión en Debian 13.
@@ -56,7 +56,7 @@ A. Agregar el usuario al grupo dialout y reiniciar su sesión en Debian 13.
   ## Pregunta 10
 C. El monitor muestrea los bits con una tasa distinta a la configurada en el sketch.
 ### Justificación:
- El programa transmite datos a 9600 baudios, pero el monitor serial está configurado a 115200 baudios. La diferencia entre ambas velocidades impide interpretar correctamente los
+ El sketch está configurado a 9600 baudios, pero el monitor serial está a 115200 baudios. Como las velocidades son diferentes, los datos se interpretan incorrectamente y aparecen caracteres ilegibles.
 
   ## Pregunta 11
 C 4,7 segundos. 
@@ -123,7 +123,7 @@ En el circuito hay una fotoresistencia LDR conectada entre 5 Voltios y el Pin an
   ## Pregunta 23
  C. II, I, III, IV.
 ### Justificación:
-El semáforo vehicular cambia de verde a amarillo y luego a rojo. Después, los peatones pueden cruzar y, al finalizar, el semáforo peatonal cambia a rojo y los vehículos vuelven a avanzar. 
+Primero, el semáforo vehicular cambia de verde a amarillo y después a rojo para detener los vehículos. Luego, el semáforo peatonal cambia a verde para permitir el paso de las personas. Finalmente, el semáforo peatonal vuelve a rojo y los vehículos pueden avanzar nuevamente. 
 
   ## Pregunta 24
 B. La placa se reinicia al abrirse el puerto serie y tarda unos segundos en iniciar el sketch.
