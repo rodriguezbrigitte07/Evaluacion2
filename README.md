@@ -13,7 +13,7 @@ D. 11000 milisegundos.
 ### Justificación: 
 El ciclo del semáforo dura 11.000 milisegundos, porque es la suma de los tiempos: verde 5000, amarillo 2000 y rojo 4000.
 
-## Pregunta 2  
+## Pregunta 2 
 C.  Ejecuta el subcomando compile e indica el identificador de la placa.
 ### Justificación: 
 Permite verificar que el código esté bien escrito y corregir errores de sintaxis antes de cargarlo en la placa Arduino.
@@ -46,7 +46,7 @@ El recorrido tiene 6 pasos de ida y 6 de regreso, pero los LED de los extremos s
   ## Pregunta 8
 A. Agregar el usuario al grupo dialout y reiniciar su sesión en Debian 13.
 ### Justificación:
- En Debian, el grupo dialout permite a los usuarios autorizados acceder a los puertos serie. Agregar el usuario a este grupo y reiniciar la sesión permite que los nuevos permisos se apliquen y facilita la comunicación entre Arduino CLI y la placa
+ En Debian, el grupo dialout permite a los usuarios autorizados acceder a los puertos serie. Agregar el usuario a este grupo y reiniciar la sesión permite que los nuevos permisos se apliquen y facilita la comunicación entre Arduino CLI y la placa.
  
   ## Pregunta 9
  D.  204.
