@@ -1,4 +1,4 @@
-*Respuestas Evaluación 2 Introducción a Tecnologías de la Información* 
+## Respuestas Evaluación 2 Introducción a Tecnologías de la Información 
 
 ## Integrantes 
 1. Paula Sánchez
