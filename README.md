@@ -9,7 +9,7 @@
 ---
 
 ## Pregunta 1
-D. 11000 milisegundos 
+D. 11000 milisegundos.
 ### Justificación: 
 El ciclo del semáforo dura 11.000 milisegundos, porque es la suma de los tiempos: verde 5000, amarillo 2000 y rojo 4000.
 
@@ -24,7 +24,7 @@ D. Los LEDs de los bits 0, 2 y 3.
  Al realizar 13 pulsaciones, el contador llega al número 13, que en binario es 1101. Por eso, los LEDs de los bits 0, 2 y 3 quedan encendidos, mientras que el bit 1 permanece apagado.
 
  ## Pregunta 4
-C. Ignora nuevas lecturas del pulsador durante un breve intervalo tras detectar el primer cambio
+C. Ignora nuevas lecturas del pulsador durante un breve intervalo tras detectar el primer cambio.
 ### Justificación:
  La técnica de debounce evita que las pequeñas variaciones eléctricas del pulsador se registren como múltiples pulsaciones. Así, cada presión real se cuenta una sola vez y el contador funciona correctamente.
 
@@ -59,7 +59,7 @@ C. El monitor muestrea los bits con una tasa distinta a la configurada en el ske
  El sketch está configurado a 9600 baudios, pero el monitor serial está a 115200 baudios. Como las velocidades son diferentes, los datos se interpretan incorrectamente y aparecen caracteres ilegibles.
 
   ## Pregunta 11
-C 4,7 segundos. 
+C. 4,7 segundos. 
 ### Justificación:
 La constante de tiempo se calcula multiplicando la resistencia por la capacitancia. Con una resistencia de 10000 ohmios y un capacitor de 0,00047 faradios, el resultado es 10000 × 0,00047 = 4,7 segundos.
 
@@ -74,7 +74,7 @@ Durante la descarga, la tensión del capacitor disminuye exponencialmente hasta 
   La tensión en la resistencia de base es aproximadamente 4,3 V, porque a los 5 V de alimentación se les resta la caída de 0,7 V de la unión base-emisor. Aplicando la ley de Ohm, la corriente es I = 4,3 V / 1000 Ω = 0,0043 A, es decir, 4,3 mA.
 
   ## Pregunta 14
-B. Ambas proposiciones son verdaderas y la razón sustenta de forma directa la afirmación
+B. Ambas proposiciones son verdaderas y la razón sustenta de forma directa la afirmación.
 ### Justificación:
  La bobina del motor genera una tensión inducida cuando se interrumpe la corriente que circula por ella. El diodo conectado en paralelo proporciona un camino para esa corriente y limita el pico de tensión, protegiendo así al transistor.
 
@@ -84,7 +84,7 @@ C. Pin digital 9.
  El Arduino UNO R3 dispone de salidas PWM en los pines digitales 3, 5, 6, 9, 10 y 11. Como el pin 9 aparece entre las opciones, es el correcto para controlar la señal PWM mediante analogWrite().
  
   ## Pregunta 16
- D. Porque la demanda de la bobina excede la capacidad de corriente que soporta el pin
+ D. Porque la demanda de la bobina excede la capacidad de corriente que soporta el pin.
 ### Justificación:
  La bobina del relé necesita 72 miliamperios, pero el pin de Arduino soporta como máximo 40 miliamperios, según el enunciado. Por eso, se utiliza un transistor que permite controlar el relé sin exigirle tanta corriente directamente al pin.
 
